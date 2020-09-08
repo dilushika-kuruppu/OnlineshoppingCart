@@ -1,0 +1,36 @@
+<div class="signup-form">
+  <form #registerForm="ngForm" method="post" (*ngSubmit)="register()">
+    <h2>Register</h2>
+
+    <div class="form-group">
+      <div class="row">
+        <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required" [(ngModel)]="model.Fristname"></div>
+        <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required" [(ngModel)]="model.Lastname"></div>
+        </div>
+      <div class="form-group">
+        <div class="row">
+          <div class="col"><input type="text" class="form-control" name="address1" placeholder="Address 1 " required="required" [(ngModel)]="model.Address1"></div>
+          <div class="col"><input type="text" class="form-control" name="address2" placeholder="Address 2" required="required" [(ngModel)]="model.Address2"></div>
+        </div>
+        </div>
+      </div>
+    <div class="form-group">
+      <input type="email" class="form-control" name="email" placeholder="Email" required="required" [(ngModel)]="model.Email">
+    </div>
+    <div class="form-group">
+     <input type="text" class="form-control" name="username" placeholder="UserName " required="required" [(ngModel)]="model.UserName">
+    </div>
+      <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="Password" required="required" [(ngModel)]="model.Password">
+      </div>
+
+      <div class="form-group">
+        <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-success btn-lg btn-block" (Click) ="register()">Register Now</button>
+        <button type="submit" class="btn btn-success btn-lg btn-block"  (cancelRegister)= "cancelregisterMode($event)" (Click)="cancel()">Cancel</button>
+      </div>
+  </form>
+  <div class="text-center">Already have an account? <a href="#">Login in</a></div>
+</div>

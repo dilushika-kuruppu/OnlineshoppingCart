@@ -1,0 +1,3 @@
+D:\Angular\OnlineShopping\onlineshopping\OnlineShoppingUnitTest\obj\Debug\netcoreapp3.1\OnlineShoppingUnitTest.AssemblyInfoInputs.cache
+D:\Angular\OnlineShopping\onlineshopping\OnlineShoppingUnitTest\obj\Debug\netcoreapp3.1\OnlineShoppingUnitTest.AssemblyInfo.cs
+D:\Angular\OnlineShopping\onlineshopping\OnlineShoppingUnitTest\obj\Debug\netcoreapp3.1\OnlineShoppingUnitTest.csproj.CoreCompileInputs.cache
